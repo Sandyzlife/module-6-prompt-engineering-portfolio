@@ -109,3 +109,109 @@ Thank you for your time and assistance.
 Best regards,
 
 Sandeep B
+
+
+---
+
+# Part 2: Zero-Shot Prompting
+
+## Task
+
+Generate five marketing slogans for a new eco-friendly water bottle.
+
+### Prompt
+
+Generate five marketing slogans for a new eco-friendly reusable water bottle.
+
+### Output
+
+1. Refill Today, Protect Tomorrow.
+2. Every Sip Saves the Planet.
+3. Drink Smart. Live Green.
+4. Sustainable Hydration Starts Here.
+5. Reuse More, Waste Less.
+
+### Reflection
+
+The model generated relevant slogans without examples because the task was straightforward and well-defined.
+
+---
+
+# Part 3: Few-Shot Prompting
+
+## Task
+
+Classify customer sentiment.
+
+### Examples Provided
+
+Input: "The service was excellent."  
+Output: Positive
+
+Input: "The product arrived damaged."  
+Output: Negative
+
+Input: "The delivery was acceptable."  
+Output: Neutral
+
+### Prompt
+
+Classify the sentiment:
+
+"The support team resolved my issue quickly."
+
+### Output
+
+Positive
+
+### Reflection
+
+Providing examples improved consistency and helped the model understand the expected format.
+
+---
+
+# Part 4: Chain-of-Thought Prompting
+
+## Problem
+
+A store sold 120 items on Monday and 150 items on Tuesday.
+
+How many items were sold in total?
+
+### Prompt
+
+Solve step-by-step:
+
+A store sold 120 items on Monday and 150 items on Tuesday. How many items were sold in total?
+
+### Output
+
+Step 1: Items sold Monday = 120
+
+Step 2: Items sold Tuesday = 150
+
+Step 3: Total items sold = 120 + 150
+
+Step 4: Total = 270
+
+Answer: 270 items
+
+### Reflection
+
+Chain-of-thought prompting encourages reasoning and improves transparency of calculations.
+
+---
+
+# Part 5: Final Reflection
+
+## Key Learnings
+
+- Prompt quality strongly affects output quality.
+- Specific instructions produce more accurate responses.
+- Few-shot prompting improves consistency.
+- Chain-of-thought prompting improves reasoning.
+- Prompt engineering is an essential skill for working with modern AI systems.
+
+## Conclusion
+
+Through this portfolio I practiced prompt refinement, zero-shot prompting, few-shot prompting, and chain-of-thought reasoning. These techniques demonstrate how carefully designed prompts can significantly improve AI-generated responses.
