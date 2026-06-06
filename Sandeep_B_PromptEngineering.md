@@ -136,6 +136,16 @@ Hydration with Purpose.
 
 Sustainability in Every Sip.
 
+Choose Reuse. Choose Better.
+
+The Bottle That Gives Back.
+
+Sip Clean. Live Conscious.
+
+Small Bottle. Big Impact.
+
+Good for You. Better for Earth.
+
 ---
 
 ## 1.2 Iteration Documentation
@@ -229,7 +239,7 @@ Prompt:
 Solve this problem and provide the answer only.
 
 Output:
-171 employees.
+172 employees.
 
 ### With Chain-of-Thought
 
@@ -265,6 +275,18 @@ The chain-of-thought output showed each calculation step while the direct answer
 Prompt:
 Classify the sentiment of each review as Positive, Negative, or Neutral.
 
+Reviews:
+
+1. "The product arrived damaged and customer service was unhelpful."
+
+2. "Works as expected, nothing special but does the job."
+
+3. "Absolutely love this! Best purchase I've made all year!"
+
+4. "The quality is okay but slightly overpriced for what you get."
+
+5. "Terrible experience, would not recommend to anyone."
+
 Results:
 
 1. Negative
@@ -291,6 +313,18 @@ Review: It is fine and works as expected.
 Sentiment: Neutral
 
 Classify the following reviews.
+
+Reviews:
+
+1. "The product arrived damaged and customer service was unhelpful."
+
+2. "Works as expected, nothing special but does the job."
+
+3. "Absolutely love this! Best purchase I've made all year!"
+
+4. "The quality is okay but slightly overpriced for what you get."
+
+5. "Terrible experience, would not recommend to anyone."
 
 Results:
 
