@@ -205,9 +205,13 @@ The valley shimmered like a dream. Floating bridges connected glowing towers whi
 
 ---
 
-## 2.2 Analysis & Recommendations
+### 2.2 Analysis & Recommendations
 
-Low temperature is useful for technical documentation and legal summaries where consistency is important. It is also useful for generating structured reports. High temperature is useful for creative writing and brainstorming marketing ideas. It encourages more diverse outputs. For this task, medium temperature worked best because it balanced creativity and clarity effectively.
+Low temperature is most useful for tasks that require consistency and accuracy, such as generating technical documentation and answering factual questions. It is also useful for creating standardized business communications where predictable outputs are important.
+
+High temperature is most useful for creative writing tasks such as storytelling and brainstorming marketing ideas. It can also help generate diverse concepts when exploring multiple solutions to a problem.
+
+For this experiment, the medium temperature produced the best results. It balanced creativity and coherence, making the story interesting while still remaining clear and easy to follow.
 
 ---
 
@@ -310,8 +314,7 @@ Results:
 | 4 | Neutral | Neutral | Neutral | No |
 | 5 | Negative | Negative | Negative | No |
 
-Few-shot prompting is most useful when tasks require a specific format or classification style. Examples help the model understand expectations and improve consistency. It is especially effective for structured business tasks.
-
+Few-shot prompting is most useful when tasks require a specific format or classification style. Providing examples helps the model understand expectations and produce more consistent outputs. It is especially valuable for structured business tasks, sentiment analysis, and data categorization.
 ---
 
 # Part 4: Responsible AI & Limitations
@@ -368,9 +371,21 @@ The response became more balanced and inclusive.
 
 ---
 
-## 4.3 Limitations & Responsible Use
+### 4.3 Limitations & Responsible Use
 
-Three limitations I observed were occasional factual inaccuracies, inconsistent reasoning in complex tasks, and dependence on prompt quality. Users should always verify outputs when making business, legal, financial, or medical decisions. LLMs are not suitable as the sole source of truth for high-risk decisions. Human review remains important for accuracy and accountability. LLMs should be used as productivity tools rather than replacements for expert judgment. Ethical use requires transparency, validation, and responsible oversight.
+#### Limitations Encountered
+
+1. LLMs can generate inaccurate or fabricated information when they are uncertain.
+2. Complex reasoning tasks may sometimes require verification because calculation mistakes can occur.
+3. Output quality depends heavily on prompt quality, making vague prompts less effective.
+
+#### Recommendations for Responsible Use
+
+1. Always verify factual information, especially for academic, financial, legal, or business-critical decisions.
+2. Avoid relying on LLMs as the sole source of truth for high-risk tasks.
+3. Use LLMs as productivity and brainstorming tools while maintaining human review and ethical oversight.
+
+LLMs are powerful assistants but should complement human judgment rather than replace it. Responsible usage requires transparency, validation, and awareness of their limitations.
 
 ---
 
