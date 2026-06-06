@@ -39,55 +39,64 @@ This is how computers can learn to recognize pictures, understand speech, and an
 
 ---
 
-## 1.1 Scenario B: Professional Email
+### 1.1 Scenario B: Professional Email
 
-### Goal
-Politely request a project status update.
+**Goal**
 
-### Initial Prompt (V1)
-Write an email asking for an update.
+Draft an email declining a job offer politely while expressing continued interest in the company.
 
-### Sample Output
-Hi,
+#### Initial Prompt (V1)
 
-Can you give me an update on the project?
+Write an email declining a job offer.
 
-Thanks.
+#### Sample Output
 
-### Refined Prompt (V2)
-Write a professional email requesting a project status update for a delayed software project.
+Dear Hiring Manager,
 
-### Sample Output
-Subject: Request for Project Status Update
+Thank you for offering me the position. I have decided not to accept the offer at this time.
 
-Dear Project Manager,
+Regards,
+Sandeep B
 
-I hope you are doing well. I would appreciate an update regarding the current status of the software project and any revised timelines.
+#### Refined Prompt (V2)
 
-Thank you.
+Write a professional email declining a job offer while thanking the company for the opportunity.
 
-### Final Prompt (V3)
-You are a senior business analyst.
+#### Sample Output
 
-Write a concise and professional email to a project manager requesting a status update on a delayed software implementation project. Maintain a polite and collaborative tone.
+Dear Hiring Manager,
 
-### Final LLM Output
+Thank you for offering me the position. After careful consideration, I have decided to decline the offer. I appreciate the time and effort invested throughout the hiring process.
 
-Subject: Follow-up on Software Implementation Project Status
+I wish the team continued success.
 
-Dear Project Manager,
+Sincerely,
+Sandeep B
 
-I hope you are doing well.
+#### Final Prompt (V3)
 
-I wanted to follow up regarding the software implementation project and request an update on its current progress. As the project has experienced some delays, I would be helpful to understand the current status, key milestones achieved, and any revised timelines.
+You are a professional career advisor.
 
-Please let me know if there are any challenges where additional support may be required.
+Write a polite and professional email declining a job offer due to personal career considerations while expressing sincere appreciation for the opportunity and continued interest in future opportunities with the company.
 
-Thank you for your time and assistance.
+#### Final LLM Output
 
-Best regards,
+Subject: Thank You for the Opportunity
+
+Dear Hiring Manager,
+
+Thank you very much for offering me the position at your company. I sincerely appreciate the time and effort that you and the team invested throughout the interview process.
+
+After careful consideration, I have decided to decline the offer at this time due to personal career considerations. This was not an easy decision, as I was genuinely impressed by the company’s culture, values, and professional environment.
+
+I remain very interested in your organization and would welcome the opportunity to be considered for future roles that may align with my career goals.
+
+Thank you again for your understanding and for the opportunity. I wish you and your team continued success.
+
+Kind regards,
 
 Sandeep B
+
 
 ---
 
@@ -139,13 +148,14 @@ Sustainability in Every Sip.
 | V2 | Explain to a 10-year-old | Added audience | Easier to understand |
 | V3 | Expert teacher with examples | Added role and context | More engaging and age-appropriate |
 
-### Scenario B
+#### Scenario B
 
-| Version | Prompt | What Changed | Why This Improved the Output |
-|----------|----------|----------|----------|
-| V1 | Write an email asking for an update | Initial prompt | Too vague |
-| V2 | Professional project update email | Added context | More professional |
-| V3 | Senior business analyst role | Added role and tone | Better communication |
+| Version | Prompt                                                            | What Changed                       | Why This Improved the Output                     |
+| ------- | ----------------------------------------------------------------- | ---------------------------------- | ------------------------------------------------ |
+| V1      | Write an email declining a job offer                              | Initial prompt                     | Too brief and lacked professionalism             |
+| V2      | Decline a job offer and thank the company                         | Added appreciation and context     | More professional and respectful                 |
+| V3      | Professional career advisor role with future interest requirement | Added role, context, and objective | Produced a polished and realistic business email |
+
 
 ### Scenario C
 
